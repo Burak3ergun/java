@@ -1,0 +1,10 @@
+version: "3"
+services:
+  production:
+    image: hello-java.jar
+    ports:
+      - 80:8080
+  test:
+    image: 914100/hello
+    ports:
+      - 9090:8080
